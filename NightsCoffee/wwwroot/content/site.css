@@ -1,0 +1,28 @@
+﻿body {
+    /*padding-top: 50px;
+    padding-bottom: 20px;
+    background-image: url('../images/pexels-photo-1235706.jpeg');
+    background-repeat: no-repeat;
+    background-size: 50% 85%;*/
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-color: black; 
+    /*background-image: url('../images/pattern.png');*/
+    /*background-repeat: repeat;*/
+}
+
+div{
+    color: white;
+}
+
+.body-content{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+img{
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}

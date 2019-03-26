@@ -1,0 +1,36 @@
+﻿@model NightsCoffee.ViewModels.HomeViewModel
+
+
+
+<div class="container-fluid">
+<header>
+    <h1>@Model.Title</h1>
+</header>
+ </div>
+
+
+@foreach (var coffee in Model.Coffees)
+{
+    <div class="col-sm-4 col-lg-4 col-md-4 ">
+        <br />
+        <div class="img-circle" alt="Cinque Terre">
+            
+            <img src="~/images/pexels-photo-1235706.jpeg" />
+
+            @*<img src="@coffee.ImageThumbnailUrl" alt="" />*@
+            <div class="caption">
+
+                <h3 class="pull-right">@coffee.Price.ToString("c")</h3>
+                <h3>
+                    @coffee.Name
+                </h3>
+                <p>@coffee.ShortDescription</p>
+            </div>
+        </div>
+    </div>
+}
+
+
+
+
+
